@@ -8,20 +8,53 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Import high contrast colour to logo and text. Also adding text shadow to all content*/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #00ff37;
+    color: #0026fd;
+    font-size: 70px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #c7ca0b,
+               1px 2px 0px #c7ca0b,
+               1px 3px 0px #c7ca0b,
+               1px 4px 0px #c7ca0b,
+               1px 5px 0px #c7ca0b,
+               1px 6px 0px #c7ca0b,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
+    
+    
 }
 
 .header h1 {
+    font-size: 70px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: #7c13e4;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #0026fd,
+               1px 2px 0px #0026fd,
+               1px 3px 0px #0026fd,
+               1px 4px 0px #0026fd,
+               1px 5px 0px #0026fd,
+               1px 6px 0px #0026fd,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #ff00aa;
 }
 
 .header div {
@@ -29,7 +62,7 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .header div ul {
@@ -42,7 +75,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #0026fd;
     text-decoration: none;
 }
 
@@ -83,22 +116,53 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #00ff37;
 }
 
 .benefit-lead {
+    
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #0026fd;
+    text-shadow: 1px 1px 0px #c7ca0b,
+               1px 2px 0px #c7ca0b,
+               1px 3px 0px #c7ca0b,
+               1px 4px 0px #c7ca0b,
+               1px 5px 0px #c7ca0b,
+               1px 6px 0px #c7ca0b,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #0026fd;
+    text-shadow: 1px 1px 0px #c7ca0b,
+               1px 2px 0px #c7ca0b,
+               1px 3px 0px #c7ca0b,
+               1px 4px 0px #c7ca0b,
+               1px 5px 0px #c7ca0b,
+               1px 6px 0px #c7ca0b,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #0026fd;
+    text-shadow: 1px 1px 0px #c7ca0b,
+               1px 2px 0px #c7ca0b,
+               1px 3px 0px #c7ca0b,
+               1px 4px 0px #c7ca0b,
+               1px 5px 0px #c7ca0b,
+               1px 6px 0px #c7ca0b,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
 .benefit-lead h3 {
@@ -139,8 +203,18 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #00ff37;
+    color: #0026fd;
+    text-shadow: 1px 1px 0px #c7ca0b,
+               1px 2px 0px #c7ca0b,
+               1px 3px 0px #c7ca0b,
+               1px 4px 0px #c7ca0b,
+               1px 5px 0px #c7ca0b,
+               1px 6px 0px #c7ca0b,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
 .online-reputation-management {
@@ -148,8 +222,18 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #00ff37;
+    color: #0026fd;
+    text-shadow: 1px 1px 0px #c7ca0b,
+               1px 2px 0px #c7ca0b,
+               1px 3px 0px #c7ca0b,
+               1px 4px 0px #c7ca0b,
+               1px 5px 0px #c7ca0b,
+               1px 6px 0px #c7ca0b,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
 .social-media-marketing {
@@ -157,8 +241,18 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #00ff37;
+    color: #0026fd;
+    text-shadow: 1px 1px 0px #c7ca0b,
+               1px 2px 0px #c7ca0b,
+               1px 3px 0px #c7ca0b,
+               1px 4px 0px #c7ca0b,
+               1px 5px 0px #c7ca0b,
+               1px 6px 0px #c7ca0b,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
 .search-engine-optimization img {
